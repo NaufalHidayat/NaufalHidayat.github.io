@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalkulator BMI By Nopal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <!-- Kalkulator n Input -->
+  <section class="page">
+    <section class="pageL">
+      <div class="kata">
+
+        <h1>Kalkulator BMI</h1>
+
+        <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan,
+          berat
+          badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? <br> Yuk, hitung sekarang di
+          kalkulator
+          BMI. </p>
+
+      </div>
+
+      <div class="calc">
+        <form>
+          <input type="radio" />
+          Pria
+          <input type="radio" />Wanita
+
+          <label for="bb"> Berat Badan (Kg)</label>
+          <input class="inputS" type="number" id="bb" />
+
+          <label for="age"> Usia (Tahun)</label>
+          <input class="inputS" type="number" id="age" />
+
+          <label for="tb">Tinggi Badan (cm)</label>
+          <input class="inputS" type="number" id="tb" />
+
+
+          <button id="sCalculate" onclick="Calc()">Hitung BMI</button>
+          <button type="reset">Reset</button>
+        </form>
+
+      </div>
+
+      <div class="kataBawah">
+        <h5> Keunggulan Fitur</h5>
+        <ol>
+          <li>Menghitung berat badan</li>
+          <li>Menentukan kategori berat badan ideal atau tidak</li>
+          <li>Mempersiapkan program penurunan berat badan</li>
+        </ol>
+
+        <p>Kalkulator ini hanya bole digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh
+          mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain
+          berkonsultasi
+          dengan orang yang memenuhi syarat seperti dokter. <br></p>
+
+        <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum. Indeks Massa
+          Tubuh (atau
+          BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi
+          dengan kuadrat tinggi badan Anda (dalam meter) atau BMI = Kg/M2.</p>
+      </div>
+    </section>
+
+  </section>
+
+  <section class="page">
+    <section class="pageR">
+      <h1>Hasil</h1>
+      <div class="res">
+        <p id="resMain">Berat Badan Lebih</p>
+        <h1 id="resBMI">24.7</h1>
+        <p id="resDesc">Anda memiliki berat badan berlebih</p>
+        <button>Download Hasil BMI</button>
+      </div>
+
+      <div class="descR">
+        <p>Hasil BMI diantara 23 dan 25</p>
+        <p>Anda berada dalam categori overweight atau berlebih </p>
+        <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit seseorang. Anda
+          perlu
+          konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan berat badan Anda</p>
+
+        <button class="b-blue">konsultasi Ahli Gizi Via Aplikasi</button>
+        <button class="b-blue"> Registrasi Online Ahli Gizi</button>
+      </div>
+
+      <div class="descP">
+        <p>Beberapa penyakit yang berasal dari kegemukan</p>
+        <p>Diabetes</p>
+        <p>Hipertensi</p>
+        <p>Sakit Jantung</p>
+        <p>Osteoarthritis</p>
+
+      </div>
+
+      <button class="b-blue">Konsultasi Dokter Via Aplikasi</button>
+      <button class="b-blue">Registrasi Online Sekarang</button>
+    </section>
+
+  </section>
+
+
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.page {
+  float: left;
+  width: 50%;
+}
+
+
+
+.kata {
+  margin: 15px;
+}
+
+.kataBawah {
+  margin-left: 25px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.calc form {
+  width: 600px;
+  margin: 10px;
+  background-color: #f2f3f5;
+  padding: 7px;
+}
+
+.calc form label {
+  display: block;
+  font-size: 13px;
+}
+
+.calc form .inputS {
+  width: 100%;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color: rgb(4, 4, 4);
+}
+
+
+.calc form .likeInput {
+  display: inline;
+}
+
+.calc form label.like {
+  display: inline;
+}
+
+
+.calc button {
+  height: 40px;
+  width: 90px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #5cc0de;
+  border: white;
+  color: white;
+  box-shadow: #18191a;
+  font-size: 13px;
+}
+
+.kataBawah p {
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.kataBawah ol {
+  margin-top: 10px;
+}
+
+.res {
+  width: 600px;
+  height: 220px;
+  display: flex;
+  background-color: #f2f3f5;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.res p {
+  margin: 24px;
+  font-size: 20px;
+}
+
+.res h1 {
+  font-size: 30px;
+}
+
+.res button {
+  height: 300px;
+  width: 150px;
+  background-color: #5cc0de;
+  border: white;
+  color: white;
+  box-shadow: #18191a;
+  font-size: 13px;
+  border-radius: 7px;
+}
+
+.descP {
+  width: 600px;
+  height: 130px;
+  display: flex;
+  background-color: #f2f3f5;
+  align-items: center;
+  flex-direction: column;
+}
+
+.descP p {
+  margin: 2px;
+  font-size: 15px;
+}
+
+.b-blue {
+  height: 50px;
+  width: 180px;
+  background-color: #5cc0de;
+  border: white;
+  color: white;
+  box-shadow: #18191a;
+  font-size: 12px;
+  border-radius: 7px;
+}
+
+.descR p {
+  margin-top: 10px;
+}
